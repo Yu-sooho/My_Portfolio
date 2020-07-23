@@ -21,6 +21,17 @@
 
   @keyframes DetailFade-out{
     from{
+      opacity: 100%;
+      top:15vmin;
+    }
+    to{
+      opacity: 0%;
+      top:25vmin;
+    }
+  }
+
+  @keyframes DetailMove-out{
+    from{
       right:10vmin;
       opacity: 100%;
     }
@@ -29,13 +40,6 @@
       opacity: 0%;
     }
   }
-
-.MyPic{
-  height: 20vmin;
-  width: 20vmin;
-  border-radius: 100px;
-  border: solid black;
-}
 
 .DetailTitle{
   font-size: 3vmin;
