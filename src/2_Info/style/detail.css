@@ -1,0 +1,68 @@
+.DetailScreen {
+    position: absolute;
+    height: 50vmin;
+    width: 55vmin;
+    right:10vmin;
+    top:15vmin;
+    opacity: 100%;
+    animation: DetailFade-in 0.4s ease
+  }
+
+  @keyframes DetailFade-in{
+    from{
+      opacity: 0%;
+      top:25vmin;
+    }
+    to{
+      opacity: 100%;
+      top:15vmin;
+    }
+  }
+
+  @keyframes DetailFade-out{
+    from{
+      right:10vmin;
+      opacity: 100%;
+    }
+    to{
+      right:-35vmin;
+      opacity: 0%;
+    }
+  }
+
+.MyPic{
+  height: 20vmin;
+  width: 20vmin;
+  border-radius: 100px;
+  border: solid black;
+}
+
+.DetailTitle{
+  font-size: 3vmin;
+  text-align: center;
+  font-weight: 900;
+  margin-right: 1vmin;
+}
+
+.DetailText{
+  font-size: 2vmin;
+  font-weight: 600;
+  text-align: right;
+}
+
+.DetailTable{
+  background-color: #CCCCCC;
+  border-radius: 5%;
+  margin-top: 2vmin;
+  width: 55vmin;
+  height: 30vmin;
+}
+
+.DetailTr{
+  line-height: 0.1vmin;
+}
+
+.DetailTd{
+  line-height: 0.1vmin;
+  width: 50%;
+}

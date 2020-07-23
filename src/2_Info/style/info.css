@@ -1,0 +1,79 @@
+.InfoScreen {
+    position: absolute;
+    height: 50vmin;
+    width: 55vmin;
+    left:10vmin;
+    top:25vmin;
+    opacity: 100%;
+    animation: InfoFade-in 0.4s ease
+  }
+
+  @keyframes InfoFade-in{
+    from{
+      opacity: 0%;
+      top:35vmin;
+    }
+    to{
+      opacity: 100%;
+      top:25vmin;
+    }
+  }
+
+  @keyframes InfoFade-out{
+    from{
+      top:25vmin;
+      opacity: 100%;
+    }
+    to{
+      top:35vmin;
+      opacity: 0%;
+    }
+  }
+
+  @keyframes Move-out{
+    from{
+      Left:10vmin;
+      opacity: 100%;
+    }
+    to{
+      left:-35vmin;
+      opacity: 0%;
+    }
+  }
+
+.MyPic{
+  height: 20vmin;
+  width: 20vmin;
+  border-radius: 100px;
+  border: solid black;
+}
+
+.InfoTitle{
+  font-size: 1.8vmin;
+  text-align: right;
+  margin-right: 1vmin;
+}
+
+.InfoText{
+  font-size: 2vmin;
+  font-weight: 600;
+  text-align: left;
+}
+
+.InfoTable{
+  background-color: #CCCCCC;
+  border-radius: 5%;
+  padding:2vmin;
+  margin-top: 2vmin;
+  width: 55vmin;
+  height: 30vmin;
+}
+
+.InfoTr{
+  line-height: 0.1vmin;
+}
+
+.InfoTd{
+  line-height: 0.1vmin;
+  width: 50%;
+}

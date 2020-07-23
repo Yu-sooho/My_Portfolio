@@ -1,0 +1,48 @@
+  .HomeBackground {
+    position: absolute;
+    background-color: blue;
+    height: 86vmin;
+    width: 43vmin;
+    border-radius: 5%;
+  }
+
+  .HomeBackimage{
+    height: 86vmin;
+    width: 43vmin;
+    border-radius: 5%;
+  }
+
+  .ShadowSet{
+    position: absolute;
+    background-color: transparent;
+    height: 86vmin;
+    width: 43vmin;
+    border-radius: 10%;
+    pointer-events: none;
+    box-shadow: -2vmin 3vmin 2vmin 0.5vmin gray;
+  }
+
+  .Main {
+    text-align: center;
+  }
+  
+  .Main-logo {
+    position: relative;
+    height: 90vmin;
+    width: 45vmin;
+    pointer-events: none;
+  }
+  
+  .Main-header {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Main-link {
+    color: #61dafb;
+  }
