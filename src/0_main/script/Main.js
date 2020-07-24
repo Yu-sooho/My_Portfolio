@@ -94,16 +94,19 @@ export default class Main extends React.Component {
 
       <img src={require('../../image/Background_img.png')} className="Main-logo" alt="logo" />
 
-      {this.props.yourstore.info &&
-          <Info id="Info"/>
-      }
-
-      {this.props.yourstore.info &&
-          <Detail id="Detail"/>
-      }
+      
+  
       
       </header>
     </div>
   );   
 }
 }
+
+// {this.props.yourstore.info &&
+//   <Info id="Info"/>
+// }
+
+// {this.props.yourstore.info &&
+//   <Detail id="Detail"/>
+// }

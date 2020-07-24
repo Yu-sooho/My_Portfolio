@@ -7,7 +7,7 @@ import { observer, inject } from "mobx-react";
 export default class Donut extends React.Component {
 
   Click=()=>{
-    setTimeout(() => {this.props.yourstore.info = false;}, 400)
+    setTimeout(() => {this.props.yourstore.info = false;}, 350)
     window.$('.InfoScreen').css('animation','Move-out 0.4s ease');
     window.$('.DetailScreen').css('animation','DetailMove-out 0.4s ease');
   }

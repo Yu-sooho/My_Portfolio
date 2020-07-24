@@ -3,36 +3,38 @@
     position: absolute;
     margin-top: 5vmin;
     background-color: transparent;
-    height: 81vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
     padding-left: 2.5vmin;
   }
 
 .HomeImage{
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+  height: 44vmax;
+  width: 20vmax;
+  border-radius: 5%;
 }
 
 .HomeIcon{
   float: left;
-  height: 7vmin;
-  width: 7vmin;
+  height: 3.5vmax;
+  width: 3.2vmax;
   border-radius: 5%;
-  margin: 1.5vmin;
-  margin-bottom: 4vmin;
+  margin-top: 2vmax;
+  margin-left: 0.5vmax;
+  margin-right: 1vmax;
+  margin-bottom: 1vmax;
 }
 
 .IconSize{
-  height: 7vmin;
-  width: 7vmin;
+  height: 3.2vmax;
+  width: 3.2vmax;
 }
 
 .IconText{
   padding: 0%;
   margin: 0%;
-  font-size: 1.5vmin;
+  font-size: 0.8rem;
   font-weight: 500;
   line-height: 1.5vmin;
   text-align: center;

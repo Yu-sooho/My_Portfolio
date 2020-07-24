@@ -1,25 +1,25 @@
   .HomeBackground {
     position: absolute;
     background-color: blue;
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
   }
 
   .HomeBackimage{
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
   }
 
   .ShadowSet{
     position: absolute;
     background-color: transparent;
-    height: 86vmin;
-    width: 43vmin;
+    height: 44vmax;
+    width: 20vmax;
     border-radius: 10%;
     pointer-events: none;
-    box-shadow: -2vmin 3vmin 2vmin 0.5vmin gray;
+    box-shadow: -2vmax 3vmax 2vmax 0.5vmax gray;
   }
 
   .Main {
@@ -28,8 +28,8 @@
   
   .Main-logo {
     position: relative;
-    height: 90vmin;
-    width: 45vmin;
+    height: 45vmax;
+    width: 22vmax;
     pointer-events: none;
   }
   
@@ -39,7 +39,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: calc(10px + 2vmin);
+    font-size: calc(10px + 2vmax);
     color: white;
   }
   

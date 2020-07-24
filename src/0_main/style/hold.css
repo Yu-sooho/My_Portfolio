@@ -1,26 +1,26 @@
  .HoldScreen {
     position: absolute;
     background-color: black;
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
   }
 
   .HoldAnimClose {
     position: absolute;
     background-color: black;
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
     animation: Fade-in 0.4s ease
   }
 
   .HoldAnimOpen {
     position: absolute;
     background-color: black;
-    height: 86vmin;
-    width: 43vmin;
-    border-radius: 5%;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
     animation: Fade-out 0.7s ease
   }
 
