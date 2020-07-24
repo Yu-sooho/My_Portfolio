@@ -20,6 +20,7 @@
     border-top-left-radius: 10%;
     border-bottom-left-radius: 10%;
     pointer-events: none;
+    z-index: 1;
     box-shadow: -1.5vmax 0.5vmax 1vmax 0.5vmax gray;
   }
 

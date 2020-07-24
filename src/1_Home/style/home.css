@@ -1,14 +1,51 @@
-.HomeScreen {
-    float: left;
-    position: absolute;
-    margin-top: 5vmin;
+.HomeScreenBack {
     background-color: transparent;
     height: 44vmax;
     width: 20vmax;
     border-radius: 10%;
     z-index: 9;
-    padding-left: 2.5vmin;
+    position: absolute;
   }
+
+  .HomeScreen {
+    float: left;
+    position: absolute;
+    margin-top: 4vmin;
+    background-color: transparent;
+    height: 44vmax;
+    width: 20vmax;
+    border-radius: 10%;
+    z-index: 9;
+    padding-left: 1vmin;
+  }
+
+  .HomeBottom {
+    float: left;
+    position: absolute;
+    height: 7vmax;
+    width: 18.5vmax;
+    border-radius: 10%;
+    margin-bottom: 0vmax;
+    z-index: 9;
+    padding-left:1vmin;
+    margin-left: 0.25vmax;
+    bottom: 0;
+  }
+
+  .HomeBottomBack {
+    position: absolute;
+    background-color: rgb(221, 219, 219);
+    margin-left: 1vmax;
+    width: 18vmax;
+    height: 5vmax;
+    bottom: 1vmax;
+    opacity: 70%;
+    border-radius: 1.4vmax;
+    z-index: 6;
+    filter: blur(0.2vmax);
+    -webkit-filter: blur(0.2vmax);
+  }
+
 
 .HomeImage{
   position: relative;
@@ -20,18 +57,18 @@
 
 .HomeIcon{
   float: left;
-  height: 3.5vmax;
-  width: 3.2vmax;
+  height: 3vmax;
+  width: 3vmax;
   border-radius: 5%;
   margin-top: 2vmax;
-  margin-left: 0.5vmax;
-  margin-right: 1vmax;
+  margin-left: 1vmax;
+  margin-right: 0.5vmax;
   margin-bottom: 1vmax;
 }
 
 .IconSize{
-  height: 3.3vmax;
-  width: 3.3vmax;
+  height: 3vmax;
+  width: 3vmax;
 }
 
 .IconText{
