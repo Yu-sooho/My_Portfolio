@@ -1,9 +1,7 @@
 .InfoScreen {
-    position: absolute;
-    height: 50vmin;
-    width: 55vmin;
-    left:10vmin;
-    top:25vmin;
+    position: relative;
+    height: 15vmax;
+    width: 15vmax;
     opacity: 100%;
     animation: InfoFade-in 0.4s ease
   }
@@ -32,30 +30,30 @@
 
   @keyframes Move-out{
     from{
-      Left:10vmin;
+      Left:10vmax;
       opacity: 100%;
     }
     to{
-      left:-35vmin;
+      left:-35vmax;
       opacity: 0%;
     }
   }
 
 .MyPic{
-  height: 20vmin;
-  width: 20vmin;
+  height: 10vmax;
+  width: 10vmax;
   border-radius: 100px;
   border: solid black;
 }
 
 .InfoTitle{
-  font-size: 1.8vmin;
+  font-size: 0.5vmax;
   text-align: right;
-  margin-right: 1vmin;
+  margin-right: 1vmax;
 }
 
 .InfoText{
-  font-size: 2vmin;
+  font-size: 0.5vmax;
   font-weight: 600;
   text-align: left;
 }
@@ -63,17 +61,17 @@
 .InfoTable{
   background-color: #CCCCCC;
   border-radius: 5%;
-  padding:2vmin;
-  margin-top: 2vmin;
-  width: 55vmin;
-  height: 30vmin;
+  padding:2vmax;
+  margin-top: 2vmax;
+  height: 15vmax;
+  width: 15vmax;
 }
 
 .InfoTr{
-  line-height: 0.1vmin;
+  line-height: 0.01vmax;
 }
 
 .InfoTd{
-  line-height: 0.1vmin;
+  line-height: 0.01vmax;
   width: 50%;
 }

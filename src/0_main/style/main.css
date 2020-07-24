@@ -16,10 +16,11 @@
     position: absolute;
     background-color: transparent;
     height: 44vmax;
-    width: 20vmax;
-    border-radius: 10%;
+    width: 19vmax;
+    border-top-left-radius: 10%;
+    border-bottom-left-radius: 10%;
     pointer-events: none;
-    box-shadow: -2vmax 3vmax 2vmax 0.5vmax gray;
+    box-shadow: -1.5vmax 0.5vmax 1vmax 0.5vmax gray;
   }
 
   .Main {
@@ -36,7 +37,7 @@
   .Main-header {
     min-height: 100vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     font-size: calc(10px + 2vmax);
@@ -45,4 +46,10 @@
   
   .Main-link {
     color: #61dafb;
+  }
+
+  .Threediv{
+    flex:100%;
+    align-items: center;
+    justify-content: center;
   }
