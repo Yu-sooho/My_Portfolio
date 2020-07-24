@@ -32,6 +32,7 @@ export default class Main extends React.Component {
   }
 
   onSystem = () => {
+    window.$('body').css('background-color','white');
     this.props.yourstore.boot = true;
     this.props.yourstore.info = true;
   };
@@ -92,18 +93,21 @@ export default class Main extends React.Component {
       }
 
 
-      <div className="Threediv">
+      <div className="Threediv1">
       {this.props.yourstore.info &&
         <Info id="Info"/>
       }
 
       </div>
 
-      <div className="Threediv">
+      <div className="Threediv2">
       <img src={require('../../image/Background_img.png')} className="Main-logo" alt="logo" />
       </div>
 
-      <div className="Threediv">
+      <div className="Threediv3">
+        {this.props.yourstore.info &&
+          <Detail id="Detail"/>
+        }
       </div>
       
   
@@ -114,7 +118,3 @@ export default class Main extends React.Component {
 }
 }
 
-
-// {this.props.yourstore.info &&
-//   <Detail id="Detail"/>
-// }

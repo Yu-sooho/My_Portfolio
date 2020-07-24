@@ -3,7 +3,8 @@
     background-color: black;
     height: 44vmax;
     width: 20vmax;
-    border-radius: 10%;
+    z-index: 10;
+    border-radius: 5%;
   }
 
   .HoldAnimClose {
@@ -11,7 +12,8 @@
     background-color: black;
     height: 44vmax;
     width: 20vmax;
-    border-radius: 10%;
+    border-radius: 5%;
+    z-index: 10;
     animation: Fade-in 0.4s ease
   }
 
@@ -20,7 +22,8 @@
     background-color: black;
     height: 44vmax;
     width: 20vmax;
-    border-radius: 10%;
+    border-radius: 5%;
+    z-index: 10;
     animation: Fade-out 0.7s ease
   }
 

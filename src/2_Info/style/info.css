@@ -1,40 +1,46 @@
 .InfoScreen {
     position: relative;
-    height: 15vmax;
-    width: 15vmax;
+    flex: 100%;
+    height: 100%;
+    width: 100%;
     opacity: 100%;
-    animation: InfoFade-in 0.4s ease
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    z-index: 0;
+    animation: InfoFade-in 0.4s ease;
   }
 
   @keyframes InfoFade-in{
     from{
+      top: 5vmax;
       opacity: 0%;
-      top:35vmin;
     }
     to{
+      top: 0;
       opacity: 100%;
-      top:25vmin;
     }
   }
 
   @keyframes InfoFade-out{
     from{
-      top:25vmin;
+      top: 0;
       opacity: 100%;
     }
     to{
-      top:35vmin;
+      top: 5vmax;
       opacity: 0%;
     }
   }
 
   @keyframes Move-out{
     from{
-      Left:10vmax;
+      top:0vmax;
       opacity: 100%;
     }
     to{
-      left:-35vmax;
+      top: -5vmax;
       opacity: 0%;
     }
   }
@@ -43,29 +49,11 @@
   height: 10vmax;
   width: 10vmax;
   border-radius: 100px;
-  border: solid black;
+  border: solid white;
+  box-shadow: -0.15vmax 0.15vmax 0.5vmax 0.1vmax #D8D8D8;
 }
 
-.InfoTitle{
-  font-size: 0.5vmax;
-  text-align: right;
-  margin-right: 1vmax;
-}
 
-.InfoText{
-  font-size: 0.5vmax;
-  font-weight: 600;
-  text-align: left;
-}
-
-.InfoTable{
-  background-color: #CCCCCC;
-  border-radius: 5%;
-  padding:2vmax;
-  margin-top: 2vmax;
-  height: 15vmax;
-  width: 15vmax;
-}
 
 .InfoTr{
   line-height: 0.01vmax;
@@ -75,3 +63,95 @@
   line-height: 0.01vmax;
   width: 50%;
 }
+
+.Infohr{
+  width: 100%;
+}
+
+.InfoTextB{
+  font-size: 1vmax;
+  font-weight: 600;
+  color: black;
+  text-align: center;
+}
+
+.InfoTextT{
+  font-size: 1vmax;
+  font-weight: 400;
+  color: black;
+  text-align: center;
+}
+
+.InfoTitleKr{
+  font-size: 2.5vmax;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  text-align: center;
+  line-height: 1vmax;
+}
+
+.InfoTitleEn{
+  font-size: 1.5vmax;
+  font-weight: 450;
+  color: black;
+  text-align: left;
+  text-align: center;
+  line-height: 1vmax;
+}
+
+.InfoTable{
+  background-color: white;
+  border-radius: 5%;
+  padding:2vmax;
+  margin-top: 1.5vmax;
+  height: 20vmax;
+  width: 15vmax;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  box-shadow: -0.15vmax 0.15vmax 0.5vmax 0.1vmax #D8D8D8;
+} 
+
+.InfoCard1{
+  flex: 60%;
+  height: 100%;
+  width: 100%;
+}
+.InfoCard2{
+  flex: 40%;
+  height: 100%;
+  width: 100%;
+}
+
+/* .InfoTitle{
+  font-size: 1vmax;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+  font-stretch: normal;
+} */
+/* .InfoText{
+  font-size: 1vmax;
+  font-weight: 600;
+  color: black;
+  text-align: left;
+}
+
+.InfoPic{
+  background-color: white;
+  border-radius: 5%;
+  width: 100%;
+  align-items: center;
+}
+
+.InfoTable{
+  background-color: white;
+  border-radius: 5%;
+  padding:2vmax;
+  margin-top: 2vmax;
+  height: 50%;
+  width: 55%;
+  box-shadow: -0.15vmax 0.15vmax 0.5vmax 0.1vmax #D8D8D8;
+} */

@@ -6,12 +6,15 @@
     height: 44vmax;
     width: 20vmax;
     border-radius: 10%;
+    z-index: 9;
     padding-left: 2.5vmin;
   }
 
 .HomeImage{
+  position: relative;
   height: 44vmax;
   width: 20vmax;
+  z-index: 7;
   border-radius: 5%;
 }
 
